@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tier_approval_request,access.tier.approval.request,model_tier_approval_request,,1,1,1,1
+access_tier_approval_category,access.tier.approval.category,model_tier_approval_category,,1,1,1,1
