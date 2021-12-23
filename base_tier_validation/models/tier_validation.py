@@ -216,7 +216,7 @@ class TierValidation(models.AbstractModel):
                                 "one record. \nPlease request a validation."
                             )
                         )
-                if rec.review_ids and not rec.validated:
+                if rec.review_ids and not (rec.validated or rec.rejected):
                     raise ValidationError(
                         _(
                             "A validation process is still open for at least "
